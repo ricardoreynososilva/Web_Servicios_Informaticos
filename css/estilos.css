@@ -45,7 +45,7 @@ body {
 
 html,
 body {
-  /* palicar este codigo para quitar el sobrante a la drecha*/
+  /* aplicar este codigo para quitar el sobrante a la drecha*/
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
@@ -115,10 +115,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
-  /*background-color: #e6e2f0;*/
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 10px 10px 10px;
-  /*border: 2px solid #4312be;*/
   align-items: center;
   align-content: center;
   height: auto;
@@ -131,13 +129,11 @@ section {
   padding: 10px 10px 10px 10px;
   text-align: justify;
   font-size: 18px;
-  /*border: 2px solid #b66b40;*/
   flex-wrap: wrap;
   margin-left: 40px;
 }
 
 .picnosotros img {
-  /*border: 2px solid #638613;*/
   padding: 10px 10px 10px 10px;
   width: 500px;
   height: auto;
@@ -157,7 +153,6 @@ section {
   flex-wrap: wrap;
   justify-items: center;
   padding: 10px 10px 10px 10px;
-  /*border: 2px solid #4312be;*/
   align-items: center;
   align-content: center;
   height: auto;
@@ -170,13 +165,11 @@ section {
   padding: 10px 10px 10px 10px;
   text-align: justify;
   font-size: 18px;
-  /*border: 2px solid #b66b40;*/
   flex-wrap: wrap;
   margin-left: 40px;
 }
 
 .picTnosotros img {
-  /*border: 2px solid #638613;*/
   padding: 10px 10px 10px 10px;
   width: 500px;
   height: auto;
@@ -189,9 +182,9 @@ section {
   filter: opacity(0.6);
   transform: translate(10px, 9%);
 }
-
 /***fin trabaja con nosotros**/
-/**del contacto**/
+
+/**inicio del contacto**/
 .cajaContact {
   display: flex;
   flex-wrap: wrap;
@@ -199,7 +192,6 @@ section {
   background-color: #e6e2f0;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 10px 10px 10px;
-  /*border: 2px solid #4312be;*/
   align-items: center;
   align-content: center;
   height: auto;
@@ -212,7 +204,6 @@ section {
   padding: 10px 10px 10px 10px;
   text-align: justify;
   font-size: 18px;
-  /*border: 2px solid #b66b40;*/
   flex-wrap: wrap;
   margin-left: 40px;
 }
@@ -237,7 +228,6 @@ section {
 .video,
 iframe {
   padding: 0;
-  /*border: 20px solid #c75614;*/
   padding: 10px 10px 10px 10px;
   width: 500px;
   height: 400px;
@@ -245,7 +235,6 @@ iframe {
 
 .caja_parrafos_como {
   font-family: sans-serif;
-  /*border: 8px solid #d31c1c;*/
   width: 700px;
   text-align: justify;
   align-items: center;
@@ -256,7 +245,6 @@ iframe {
   font-size: 18px;
   color: #31a3dd;
   text-align: justify;
-  /*border: 8px solid #0adceb;*/
   padding: 20px 60px 30px;
   align-items: center;
 }
@@ -270,7 +258,6 @@ iframe {
 }
 
 .imgnosotros img {
-  /*border: 2px solid #863d13;*/
   text-align: center;
   width: auto;
   height: 400px;
@@ -325,21 +312,16 @@ footer {
   justify-content: space-between;
   background: rgba(14, 1, 26, 0.995);
   height: 69px;
-  /*border: 2px solid #d61364;*/
-  /*esta linea es olo para guiarme, al final se elimina
-  }*/
+
 }
 
 .list_social {
   justify-content: right;
-  /*border: solid 2px #f309cc; */
-  /*esta linea es para guiarme del tamaño*, al final se elimina*/
+
 }
 
 .list_social ul {
   justify-content: space-around;
-  /*border: solid 2px #f309cc;*/
-  /*estalinea es para guiarme del tamaño*/
   display: flex;
   list-style: none;
 }
@@ -349,8 +331,6 @@ nav.list_social {
 }
 
 .header_logo {
-  /* border: solid 2px #40b650;*/
-  /*esta linea es solo para guiarme, al final se elimina*/
   cursor: pointer;
   padding: 5px 10px 10px 70px;
   width: 30%;
@@ -370,8 +350,7 @@ nav.list_social {
   font-family: sans-serif;
   flex-wrap: wrap;
   width: 100%;
-  /*border: solid 2px #40b650;
-    background-color: #b9c6cc;*/
+
 }
 
 .fa-facebook-square {
@@ -518,8 +497,7 @@ nav.list_social {
   display: flex;
   flex-wrap: wrap;
   padding: 0px 20px 30px;
-  /*background-color: #e6e2f0;*/
-  /*border: 20px solid #ca420c;*/
+
 }
 
 .column-service {
@@ -546,7 +524,6 @@ nav.list_social {
   color: #31a3dd;
   text-align: justify;
   padding: 20px 80px 5px;
-  /*border: 8px solid #0adceb;*/
   align-items: center;
 }
 
@@ -555,7 +532,6 @@ nav.list_social {
   height: auto;
   background-color: #e6e2f0;
   background: rgba(0, 0, 0, 0.4);
-  /* border: 20px solid #420cca;*/
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -647,7 +623,7 @@ input {
 }
 
 .item1 {
-  /*border: 3px solid rgb(255, 136, 0);*/
+
   background-image: url(../img/item1.png);
   background-size: cover;
   background-position: center;
@@ -662,7 +638,7 @@ input {
 }
 
 .item2 {
-  /*border: 3px solid rgb(255, 0, 200);*/
+ 
   background-image: url(../img/item2.png);
   background-size: cover;
   background-position: center;
@@ -735,7 +711,6 @@ input {
 .cajaclientes {
   width: auto;
   height: auto;
-  /*background-color: #e6e2f0;*/
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -748,7 +723,6 @@ input {
 
 .caja_parrafos_clientes {
   font-family: sans-serif;
-  /*border: 8px solid #310997;*/
   height: 300px;
   width: 400px;
   text-align: justify;
@@ -795,7 +769,7 @@ input {
 }
 @media only screen and (max-width: 718px) {
   .contenedorgrid {
-    /*border: 4px solid #88e40f;*/
+
     display: grid;
     text-align: center;
     width: 50%;
@@ -836,19 +810,17 @@ li {
 }
 @media only screen and (max-width: 551px) {
   .imgnosotros img {
-    /*border: 2px solid #863d13;*/
     text-align: center;
     width: auto;
     height: 300px;
     display: inline-block;
     flex-wrap: wrap;
-    /*padding: 25px 10px 10px 10px;
-      transition: all 0.5s ease-in-out;*/
+
   }
 }
 @media only screen and (max-width: 516px) {
   .imgnosotros img {
-    /*border: 2px solid #863d13;*/
+  
     text-align: center;
     width: 400px;
     height: 300px;
@@ -878,7 +850,6 @@ iframe {
   .video,
 iframe {
     padding: 0;
-    /*border: 20px solid #c75614;*/
     padding: 10px 10px 10px 10px;
     width: auto;
     height: 350px;
@@ -886,14 +857,14 @@ iframe {
 }
 @media only screen and (max-width: 513px) and (max-width: 419px) {
   .picnosotros img {
-    /*border: 2px solid #638613;*/
+ 
     width: 350px;
     height: auto;
   }
 }
 @media only screen and (max-width: 541px) {
   .picnosotros img {
-    /*border: 2px solid #638613;*/
+  
     padding: 0;
     width: 300px;
     height: auto;
@@ -920,7 +891,7 @@ iframe {
     height: auto;
     text-align: justify;
     font-size: 20px;
-    /*border: 2px solid #b66b40;*/
+  
   }
 }
 @media only screen and (max-width: 991px) {
@@ -929,7 +900,7 @@ iframe {
     height: auto;
     text-align: justify;
     font-size: 25px;
-    /*border: 2px solid #b66b40;*/
+   
   }
 }
 @media only screen and (max-width: 991px) {
@@ -937,14 +908,14 @@ iframe {
     width: 100%;
     height: auto;
     font-size: 25px;
-    /*border: 2px solid #b66b40;*/
+   
   }
 }
 @media only screen and (max-width: 991px) {
   .video,
 iframe {
     padding: 0;
-    /*border: 20px solid #c75614;*/
+  
     padding: 10px 10px 10px 10px;
     width: auto;
     height: auto;
