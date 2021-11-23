@@ -954,29 +954,26 @@ input {
 @media only screen and (max-width: 551px) {
 
   .imgnosotros img {
-    /*border: 2px solid #863d13;*/
+  
     text-align: center;
     width: auto;
     height: 300px;
     display: inline-block;
     flex-wrap: wrap;
-    /*padding: 25px 10px 10px 10px;
-      transition: all 0.5s ease-in-out;*/
-  }
+    
 
 }
 
 @media only screen and (max-width: 516px) {
 
   .imgnosotros img {
-    /*border: 2px solid #863d13;*/
+   
     text-align: center;
     width: 400px;
     height: 300px;
     display: flex;
     padding: 10px 10px 10px 10px;
-    /*padding: 25px 10px 10px 10px;
-      transition: all 0.5s ease-in-out;*/
+ 
   }
 
 }
@@ -998,7 +995,7 @@ input {
   .video,
   iframe {
     padding: 0;
-    /*border: 20px solid #c75614;*/
+   
     padding: 10px 10px 10px 10px;
     width: 450px;
     height: 350px;
@@ -1013,7 +1010,7 @@ input {
   .video,
   iframe {
     padding: 0;
-    /*border: 20px solid #c75614;*/
+    
     padding: 10px 10px 10px 10px;
     width: auto;
     height: 350px;
@@ -1025,7 +1022,7 @@ input {
 
 @media only screen and (max-width:513px) and (max-width:419px) {
   .picnosotros img {
-    /*border: 2px solid #638613;*/
+   
 
     width: 350px;
     height: auto;
@@ -1037,7 +1034,7 @@ input {
 
 @media only screen and (max-width:541px) {
   .picnosotros img {
-    /*border: 2px solid #638613;*/
+    
     padding: 0;
     width: 300px;
     height: auto;
@@ -1082,7 +1079,7 @@ input {
     height: auto;
     text-align: justify;
     font-size: 20px;
-    /*border: 2px solid #b66b40;*/
+   
 
 
 
@@ -1098,7 +1095,7 @@ input {
     height: auto;
     text-align: justify;
     font-size: 25px;
-    /*border: 2px solid #b66b40;*/
+   
 
 
 
@@ -1113,7 +1110,7 @@ input {
     width: 100%;
     height: auto;
     font-size: 25px;
-    /*border: 2px solid #b66b40;*/
+    
   }
 
 }
@@ -1123,7 +1120,7 @@ input {
   .video,
   iframe {
     padding: 0;
-    /*border: 20px solid #c75614;*/
+    
     padding: 10px 10px 10px 10px;
     width: auto;
     height: auto;
