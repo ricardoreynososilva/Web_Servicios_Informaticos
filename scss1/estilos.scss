@@ -97,6 +97,12 @@ h3 {
   font-size: 20px;
 }
 
+.parrafosmedianos {
+  p{
+    color:#31a3dd ;
+    font-size: 25px;
+  }
+}
 section {
   scroll-snap-align: start;
 }
@@ -169,11 +175,14 @@ section {
   height: 500px;
   margin: 10px;
   padding: 10px 10px 10px 10px;
-  text-align: justify;
-  font-size: 18px;
+  
+  
   /*border: 2px solid #b66b40;*/
   flex-wrap: wrap;
   margin-left: 40px;
+  p{
+    font-size: 20px;
+  }
 
 
 }
@@ -215,11 +224,13 @@ section {
   height: 500px;
   margin: 10px;
   padding: 10px 10px 10px 10px;
-  text-align: justify;
-  font-size: 18px;
+ 
   /*border: 2px solid #b66b40;*/
   flex-wrap: wrap;
   margin-left: 40px;
+  p{
+    font-size: 20px;
+  }
 
 
 }
@@ -296,16 +307,7 @@ section {
 /**fin del contacto*/
 
 
-.video,
-iframe {
-  padding: 0;
-  /*border: 20px solid #c75614;*/
-  padding: 10px 10px 10px 10px;
-  width: 500px;
-  height: 400px;
 
-
-}
 
 .caja_parrafos_como {
   font-family: sans-serif;
@@ -712,6 +714,82 @@ input {
   border: solid 1px #ededed;
 }
 
+/**contenedor pasos**/
+.contenedorgridpasos {
+  /*border: 4px solid #88e40f;*/
+  display: grid;
+  text-align: center;
+  width: 50%;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(1, 200px);
+  grid-column-gap: 5%;
+  /* esta propiedad son los espacios entre columns usando cualquier valor de unidad*/
+  grid-row-gap: 2%;
+  /* esta propiedad son los espacios entre filas usando cualquier valos de unidad*/
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 150px 80px 70px;
+}
+
+.paso1 {
+
+  border-radius: 40px 40px 0px 0px;
+  background-image: url(../img/paso1.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.paso1:hover {
+  filter: opacity(0.6);
+  transform: translate(10px, 9%);
+  width: 110%;
+}
+
+.paso2 {
+
+  
+  border-radius: 40px 40px 0px 0px;
+  padding: 0 0 100px 0; 
+  background-image: url(../img/paso2.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.paso2:hover {
+  filter: opacity(0.6);
+  transform: translate(10px, 9%);
+  width: 110%;
+}
+
+.paso3 {
+  border-radius: 40px 40px 0px 0px;
+  background-image: url(../img/paso3.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.paso3:hover {
+  filter: opacity(0.6);
+  transform: translate(10px, 9%);
+  width: 110%;
+}
+
+
+
+/*fin conetendor pasos*/
+
 .contenedorgrid {
   /*border: 4px solid #88e40f;*/
   display: grid;
@@ -823,6 +901,19 @@ input {
   transform: translate(10px, 9%);
 }
 
+.contenedorfunciona{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #474949;
+  background: rgba(0, 0, 0, 0.5);
+  align-content: center;
+  justify-content: center;
+  
+}
+
 
 .cajaclientes {
   width: auto;
@@ -859,6 +950,7 @@ input {
 
 }
 
+
 .animado {
   opacity: 0;
   transition: all 0.5s;
@@ -868,6 +960,88 @@ input {
   animation: mostrarArriba 1s;
 }
 
+/*Titulos h2 con efectos*/
+.titulo-efect {
+  h2 {
+    display: inline;
+    position: relative;
+    font: 100px Helvetica, Sans-Serif;
+    letter-spacing: -2px;
+    color: #a349a4;
+    width: 100%;
+    
+  }
+
+  h2:after {
+    content: "Nosotros";
+    position: absolute;
+    left: 8px;
+    top: 2px;
+    color: #31a3dd;
+    width: 100%;
+  }
+}
+
+.titulo-efect-funciona {
+  padding: 30px 70px 10px 100px;
+  
+  h2 {
+    display: inline;
+    position: relative;
+    font: 80px Helvetica, Sans-Serif;
+    letter-spacing: -2px;
+    color: #a349a4;
+    width: 100%;
+    
+  
+    
+  }
+
+  h2:after {
+    content: "Cómo Funciona"; 
+    position: absolute;
+    left: 8px;
+    top: 2px;
+    color: #31a3dd;
+    width: 100%;
+  
+    
+ 
+    
+  }
+}
+
+.titulo-efect--servicios {
+
+
+  h2:after {
+    content: "Servicios";
+
+  }
+}
+
+
+
+.titulo-efect--unete {
+
+
+  h2:after {
+    content: "Únete";
+
+  }
+}
+
+.titulo-efect--sectores {
+
+
+  h2:after {
+    content: "Sectores";
+
+  }
+}
+
+
+/*fin efect titulos h2*/
 
 
 @keyframes mostrarArriba {
@@ -902,6 +1076,28 @@ input {
 
 @media only screen and (max-width: 718px) {
   .contenedorgrid {
+    /*border: 4px solid #88e40f;*/
+    display: grid;
+
+    text-align: center;
+    width: 50%;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(4, 200px);
+    grid-column-gap: 2%;
+    /* esta propiedad son los espacios entre columns usando cualquier valor de unidad*/
+    grid-row-gap: 2%;
+    /* esta propiedad son los espacios entre filas usando cualquier valos de unidad*/
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 718px) {
+  .contenedorgridpasos {
     /*border: 4px solid #88e40f;*/
     display: grid;
 
