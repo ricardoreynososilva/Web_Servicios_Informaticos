@@ -32,7 +32,7 @@
         <header class="header_redes navbar" id="home">
             <div>
                 <button type="button" class="btn btn-primary">
-                    En Línea<span class="badge badge-warning">150</span>
+                    En Línea<span class="badge badge-warning" style="color: green; background-color: green;"> </span>
 
                 </button>
             </div>
@@ -108,7 +108,7 @@
                     <a href="https://soportetecnicoremoto.freshdesk.com/" target="_blank">
                         <button type="button" class="btn btn-primary btn-lg">Solicita</button>
                     </a>
-                    <a href="#comofunciona">
+                    <a href="#servicios">
                         <button type="button" class="btn btn-secondary btn-lg">Saber Más</button>
                     </a>
                 </div>
@@ -124,6 +124,32 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+         <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="357890438580670"
+  logged_in_greeting="Hola!  Mi nombre es Ricardo. en que puedo ayudarte?"
+  logged_out_greeting="Hola!  Mi nombre es Ricardo. en que puedo ayudarte?">
+      </div>
+    </div>
         </div>
 
         <section id="experiencia" style="padding-top: 55px !important;">
@@ -247,16 +273,12 @@
             <div class="contenedorfunciona animado ">
                 <div class="titulo-efect-funciona">
                     <h2>Cómo Funciona</h2>
-                    <p style="font-size: 40px;"> En 3 sencillos pasos</p>
-
+                    <p style="font-size: 30px; text-align: center;"> En 3 sencillos pasos <br>Fácil y Rápido</p>
                 </div>
                 <div class="contenedorgridpasos">
                     <div class="paso1"> </div>
                     <div class="paso2"></div>
                     <div class="paso3"></div>
-
-
-
                 </div>
 
             </div>

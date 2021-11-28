@@ -712,12 +712,12 @@ input {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  padding: 150px 80px 70px;
+  padding: 80px 80px 70px 0;
 }
 
 .paso1 {
 
-  border-radius: 40px 40px 0px 0px;
+  border-radius: 40px 40px 40px 40px;
   background-image: url(../img/paso1.png);
   background-size: cover;
   background-position: center;
@@ -735,7 +735,7 @@ input {
 .paso2 {
 
 
-  border-radius: 40px 40px 0px 0px;
+  border-radius: 40px 40px 40px 40px;
   padding: 0 0 100px 0;
   background-image: url(../img/paso2.png);
   background-size: cover;
@@ -752,7 +752,7 @@ input {
 }
 
 .paso3 {
-  border-radius: 40px 40px 0px 0px;
+  border-radius: 40px 40px 40px 40px;
   background-image: url(../img/paso3.png);
   background-size: cover;
   background-position: center;
@@ -940,6 +940,7 @@ input {
 
 /*Titulos h2 con efectos*/
 .titulo-efect {
+  padding: 10px 0px ;
   h2 {
     display: inline;
     position: relative;
@@ -990,7 +991,7 @@ input {
 }
 
 .titulo-efect--servicios {
-
+  padding: 0 10%;
 
   h2:after {
     content: "Servicios";
@@ -1005,6 +1006,14 @@ input {
 
   h2:after {
     content: "Únete";
+
+  }
+}
+.titulo-efect--contacto {
+
+
+  h2:after {
+    content: "Escríbenos";
 
   }
 }
