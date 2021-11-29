@@ -355,9 +355,7 @@ section {
   color: $colorp;
 }
 
-footer {
-  background-color: #353636;
-}
+
 
 .p_footer {
   font-family: sans-serif;
@@ -384,7 +382,7 @@ footer {
 
   align-items: center;
   justify-content: space-between;
-  background: rgba(14, 1, 26, 0.995);
+  background: rgb(96, 42, 97);
   height: 69px;
 
 
@@ -940,7 +938,8 @@ input {
 
 /*Titulos h2 con efectos*/
 .titulo-efect {
-  padding: 10px 0px ;
+  padding: 10px 0px;
+
   h2 {
     display: inline;
     position: relative;
@@ -997,6 +996,11 @@ input {
     content: "Servicios";
 
   }
+  h2 {
+    margin-left: 25%;
+  }
+
+ 
 }
 
 
@@ -1009,6 +1013,7 @@ input {
 
   }
 }
+
 .titulo-efect--contacto {
 
 
@@ -1025,6 +1030,16 @@ input {
     content: "Sectores";
 
   }
+
+  h2 {
+    margin-left: 25%;
+  }
+
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+
 }
 
 
@@ -1261,14 +1276,60 @@ input {
     width: 100%;
     height: auto;
     text-align: justify;
-    font-size: 25px;
 
-
+    h2 {
+      font-size: 80px;
+    }
 
 
 
   }
 
+}
+
+@media only screen and (max-width:991px) {
+  .titulo-efect--servicios {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+
+    h2 {
+      font-size: 80px;
+      margin-left: 10%;
+
+    }
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .titulo-efect--sectores {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+
+    h2 {
+      font-size: 80px;
+      margin-left: 10%;
+    }
+  }
+}
+
+
+
+
+@media only screen and (max-width:991px) {
+  .titulo-efect--contacto {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+
+    h2 {
+      font-size: 72px;
+      text-align: center;
+
+
+    }
+  }
 }
 
 @media only screen and (max-width:991px) {

@@ -280,10 +280,6 @@ section {
   color: #31a3dd;
 }
 
-footer {
-  background-color: #353636;
-}
-
 .p_footer {
   font-family: sans-serif;
   font-weight: 400;
@@ -306,7 +302,7 @@ footer {
 .header_redes {
   align-items: center;
   justify-content: space-between;
-  background: rgba(14, 1, 26, 0.995);
+  background: #602a61;
   height: 69px;
 }
 
@@ -864,6 +860,9 @@ input {
 .titulo-efect--servicios h2:after {
   content: "Servicios";
 }
+.titulo-efect--servicios h2 {
+  margin-left: 25%;
+}
 
 .titulo-efect--unete h2:after {
   content: "Únete";
@@ -875,6 +874,13 @@ input {
 
 .titulo-efect--sectores h2:after {
   content: "Sectores";
+}
+.titulo-efect--sectores h2 {
+  margin-left: 25%;
+}
+.titulo-efect--sectores p {
+  font-size: 30px;
+  text-align: center;
 }
 
 /*fin efect titulos h2*/
@@ -1031,7 +1037,42 @@ iframe {
     width: 100%;
     height: auto;
     text-align: justify;
-    font-size: 25px;
+  }
+  .cajaPn h2 {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .titulo-efect--servicios {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+  }
+  .titulo-efect--servicios h2 {
+    font-size: 80px;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .titulo-efect--sectores {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+  }
+  .titulo-efect--sectores h2 {
+    font-size: 80px;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .titulo-efect--contacto {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+  }
+  .titulo-efect--contacto h2 {
+    font-size: 72px;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 991px) {
