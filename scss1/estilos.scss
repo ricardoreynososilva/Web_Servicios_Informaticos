@@ -500,6 +500,30 @@ nav.list_social {
   color: #a349a4;
 
 }
+/*datos de la empresa*/
+.nav_red_footer2 {
+  list-style: none;
+  text-align: right;
+  height: 5px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.nav_red_footer2 li {
+  color: #31a3dd;
+  padding: 0px 40px;
+  /* padding de espacio entre palabras del menu*/
+}
+
+.nav_red_footer2 li a {
+  transition: all 0.3s ease 0s;
+  /* el tiempo que dura el efecto hover*/
+}
+
+.nav_red_footer2 li a:hover {
+  color: #a349a4;
+
+}
 
 /*aqui es el nav de del menu*/
 
@@ -1267,7 +1291,6 @@ input {
     padding-top: 4rem;
   }
 
-
 }
 
 @media only screen and (max-width:991px) {
@@ -1280,7 +1303,6 @@ input {
     h2 {
       font-size: 80px;
     }
-
 
 
   }
@@ -1331,6 +1353,19 @@ input {
     }
   }
 }
+@media only screen and (max-width:991px) {
+.formContact {
+  width: 350px;
+  #comentarios {
+
+    resize: none;
+    width: 320px;
+  
+  }
+
+ }
+}
+
 
 @media only screen and (max-width:991px) {
 
@@ -1339,10 +1374,6 @@ input {
     height: auto;
     text-align: justify;
     font-size: 25px;
-
-
-
-
 
   }
 
